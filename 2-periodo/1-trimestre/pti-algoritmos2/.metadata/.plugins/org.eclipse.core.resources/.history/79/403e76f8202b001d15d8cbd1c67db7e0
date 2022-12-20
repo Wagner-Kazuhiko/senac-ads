@@ -1,0 +1,89 @@
+
+		
+		package ptiAlgoritmos2;
+
+		import java.util.Scanner;
+
+		public class MeuPrograma2 {
+
+			public static void main(String[] args) {
+				Scanner scan = new Scanner(System.in);
+
+			       int N = scan.nextInt();
+
+			       if (N > 0) {
+
+			           int[] vetor = new int[N];
+
+			           for (int i = 0; i < N; i++) {
+
+			               vetor[i] = scan.nextInt();
+
+			           }
+
+			           System.out.println();
+
+			           System.out.println(maiorDiferenca(vetor));
+
+			           System.out.println(ordemCrescente(vetor));
+
+			       }
+
+			   }
+			
+			public static int maiorDiferenca(int vetor[]) {
+
+			      int maior = 0;
+
+			      int index = 1;
+
+			       while (index < vetor.length){
+
+			           int contador = 0;
+
+			           while (contador < vetor.length){
+
+			               int novo_valor = vetor[index] - vetor[contador];
+
+			               if (novo_valor > maior){
+
+			                   maior = novo_valor;
+
+			               }
+
+			               contador++;
+
+			           }
+
+			           index++;
+
+			       }
+
+			       return maior;
+
+			  }
+
+
+
+
+			  
+			   public static boolean ordemCrescente(int vetor[]) {
+
+			       for (int i = 1; i < vetor.length; i++) {
+
+			           if (vetor[i] < vetor[i - 1]) {
+
+			               return false;
+
+			           }
+
+			       }
+
+			       return true;
+
+			   }
+
+
+
+
+	}

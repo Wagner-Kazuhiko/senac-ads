@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/wkey/Documentos/senac/pti-algoritmos2/.metadata/.plugins/org.eclipse.jdt.core
+258585374.index
+1865797976.index
+3721359464.index
