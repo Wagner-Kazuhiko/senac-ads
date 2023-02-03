@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Principal {
     public static void main(String[] args) {
 
-        JOptionPane.showMessageDialog(null, "Olá. \n Esse é um exemplo de método polimórfico");
+        JOptionPane.showMessageDialog(null, "Olá. \n Esse é um exemplo de método polimórfico", "Informações Gerais", JOptionPane.ERROR_MESSAGE);
 
     }
 }
