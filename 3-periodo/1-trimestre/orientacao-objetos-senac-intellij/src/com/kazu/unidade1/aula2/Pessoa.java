@@ -6,6 +6,7 @@ public class Pessoa {
     private int cpf;
     private String email;
 
+
     public String getNome() {
         return nome;
     }

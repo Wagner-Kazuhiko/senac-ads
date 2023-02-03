@@ -12,6 +12,6 @@ public class Principal {
         System.out.println("O CPF inserido foi: " + p.getCpf());
         System.out.println("O nome inserido foi: " + p.getNome());
         System.out.println("O email inserido foi: " + p.getEmail());
-        
+
     }
 }
