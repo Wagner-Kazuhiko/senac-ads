@@ -1,6 +1,6 @@
 package com.kazu.unidade3.aula1;
 
-public class Colaborador {
+public abstract class Colaborador {
     private String nome;
     private String departamento;
 
@@ -24,6 +24,8 @@ public class Colaborador {
     public void setDepartamento(String departamento) {
         this.departamento = departamento;
     }
+
+    public abstract double salario();
 
     @Override
     public String toString(){
