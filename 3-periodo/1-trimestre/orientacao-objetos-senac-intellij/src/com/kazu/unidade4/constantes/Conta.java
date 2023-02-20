@@ -5,10 +5,11 @@ public class Conta {
     private String cliente;
     private Long numero = 0L;
     private Double saldo;
+    private static Long totalContas = 1L;
 
-    public Conta(String cliente, Long numero, Double saldo) {
+    public Conta(String cliente, Double saldo) {
         this.cliente = cliente;
-        this.numero++;
+        this.numero = Conta.totalContas++;
         this.saldo = saldo;
     }
 

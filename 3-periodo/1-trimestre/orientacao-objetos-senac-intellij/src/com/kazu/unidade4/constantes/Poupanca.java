@@ -5,7 +5,7 @@ public class Poupanca extends Conta{
     private Double taxaRendimento;
 
     public Poupanca(String cliente, Long numero, Double saldo, Double taxaRendimento) {
-        super(cliente, numero, saldo);
+        super(cliente, saldo);
         this.taxaRendimento = taxaRendimento;
     }
 
