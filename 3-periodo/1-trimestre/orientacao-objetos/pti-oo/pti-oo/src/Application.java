@@ -2,11 +2,12 @@ public class Application {
 
     public static void main(String[] args) {
 
-        Ponto ponto = new Ponto();
-        System.out.println(ponto.getX());
-        System.out.println(ponto.getY());
+        Ponto pontoA = new Ponto(12, 12);
+        Ponto pontoB = new Ponto(9, 9);
 
-        System.out.println(ponto.distancia(new Ponto(3, 6) ));
+
+        System.out.println(pontoA.igual(pontoB));
+        System.out.println(pontoA.distancia(pontoB));
 
     }
 }

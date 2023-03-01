@@ -31,21 +31,14 @@ public class Ponto {
         this.y = y;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Ponto ponto)) return false;
-        return x == ponto.x && y == ponto.y;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(x, y);
+    public boolean igual(Ponto ponto) {
+        if (this.x == ponto.x && this.y == ponto.y) return true;
+        else return false;
     }
 
     public double distancia(Ponto ponto){
-        int deltaX = this.x - ponto.x;
-        int deltaY = this.y - ponto.y;
-        return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+        int posicaoX = this.x - ponto.x;
+        int posicaoY = this.y - ponto.y;
+        return Math.sqrt(posicaoX * posicaoX + posicaoY * posicaoY);
     }
 }
