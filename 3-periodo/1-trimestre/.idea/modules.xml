@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/1-trimestre.iml" filepath="$PROJECT_DIR$/.idea/1-trimestre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao-objetos/orientacao-objetos.iml" filepath="$PROJECT_DIR$/orientacao-objetos/orientacao-objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao-objetos-senac-intellij/orientacao-objetos-senac-intellij.iml" filepath="$PROJECT_DIR$/orientacao-objetos-senac-intellij/orientacao-objetos-senac-intellij.iml" />
+    </modules>
+  </component>
+</project>
