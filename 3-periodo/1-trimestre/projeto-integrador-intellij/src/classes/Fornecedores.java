@@ -30,11 +30,19 @@ public class Fornecedores extends PessoaJuridica{
         valor+= valor;
     }
 
-    public void armazenaConteudoDigital(){
+    public void gerenciarDadosPessoais(){
 
     }
 
-    public void vendeMaterial(){
+    public void gerenciarDadosEmpresariais(){
+
+    }
+
+    public void gerenciarAulas(){
+
+    }
+
+    public void gerenciarProdutosEServicos(){
 
     }
 
