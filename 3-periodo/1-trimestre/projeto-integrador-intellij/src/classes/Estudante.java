@@ -54,6 +54,10 @@ public class Estudante extends PessoaFisica{
         valor -= valor;
     }
 
+    public void acessaConteudo(){
+
+    }
+
 
     public boolean insertIntoDatabase(){
 

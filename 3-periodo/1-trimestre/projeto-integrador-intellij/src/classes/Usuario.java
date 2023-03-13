@@ -1,6 +1,6 @@
 package classes;
 
-public class Pessoa {
+public class Usuario {
 
     private int telefone;
     private String email;
@@ -9,7 +9,7 @@ public class Pessoa {
     private String senha;
     private int nivelacesso;
 
-    public Pessoa(int telefone, String email, String endereco, boolean ativo, String senha, int nivelacesso) {
+    public Usuario(int telefone, String email, String endereco, boolean ativo, String senha, int nivelacesso) {
         this.telefone = telefone;
         this.email = email;
         this.endereco = endereco;

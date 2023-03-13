@@ -30,6 +30,14 @@ public class Fornecedores extends PessoaJuridica{
         valor+= valor;
     }
 
+    public void armazenaConteudoDigital(){
+
+    }
+
+    public void vendeMaterial(){
+
+    }
+
     public boolean insertIntoDatabase(){
 
         return false;

@@ -34,6 +34,10 @@ public class Professor extends PessoaFisica{
         valor += valor;
     }
 
+    public void produzAulaParaFornecedor(){
+
+    }
+
     public boolean insertIntoDatabase(){
 
         return false;
