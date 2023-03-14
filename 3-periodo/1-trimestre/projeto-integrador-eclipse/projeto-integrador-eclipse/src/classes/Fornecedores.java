@@ -5,23 +5,9 @@ public class Fornecedores extends PessoaJuridica{
     private String servico;
     private String material;
 
-    private Professor professor;
-
-    public Fornecedores(int telefone, String email, String endereco, boolean ativo, String senha, int nivelacesso, int registroProfessor, String materia) {
+    public Fornecedores(int telefone, String email, String endereco, boolean ativo, String senha, int nivelacesso) {
         super(telefone, email, endereco, ativo, senha, nivelacesso);
-        this.professor = new Professor(telefone, email, endereco, ativo, senha, nivelacesso);
-        this.professor.setRegistroProfessor(registroProfessor);
-        this.professor.setMateria(materia);
     }
-
-    public int getRegistroProfessor() {
-        return this.professor.getRegistroProfessor();
-    }
-
-    public String getMateria() {
-        return this.professor.getMateria();
-    }
-
 
 
     public String getServico() {
